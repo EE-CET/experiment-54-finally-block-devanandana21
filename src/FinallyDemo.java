@@ -11,7 +11,7 @@ public class FinallyDemo {
             int result=a/b;
             System.out.println("Result:" + result);
             }catch (ArithmeticException e){
-                System.out.println("Divide by zero error");
+                System.out.println("Divide by zero");
             }
         finally {
             System.out.println("Finally block executed");
